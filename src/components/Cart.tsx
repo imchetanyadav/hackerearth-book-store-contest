@@ -22,7 +22,7 @@ const Cart: React.FC<Props> = () => {
         <div className="overflow-y-scroll flex-1">
           {cartBooks.map((b) => (
             <div key={b.id} className="border-b border-gray-200 px-5 py-3">
-              <div className="truncate">{b.title}</div>
+              <div className="truncate text-left">{b.title}</div>
               <div className="flex justify-between">
                 <button
                   className="cursor-pointer text-xs text-red-400"
